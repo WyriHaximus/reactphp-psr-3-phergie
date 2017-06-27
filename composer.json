@@ -12,15 +12,14 @@
         "psr/log": "^1.0",
         "phergie/phergie-irc-bot-react": "^2.1",
         "reactivex/rxphp": "^2.0",
-        "wyrihaximus/psr-3-utilities": "dev-master"
+        "wyrihaximus/psr-3-utilities": "^1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.3",
         "jakub-onderka/php-console-highlighter": "^0.3.2",
         "jakub-onderka/php-parallel-lint": "^0.9.2",
         "phake/phake": "^2.3",
-        "phpunit/phpunit": "^5.7.15",
-        "wyrihaximus/psr-3-utilities": "dev-master"
+        "phpunit/phpunit": "^5.7.15"
     },
     "autoload": {
         "psr-4": {
