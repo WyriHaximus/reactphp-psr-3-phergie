@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "php": "^7.0",
         "psr/log": "^1.0",
         "phergie/phergie-irc-bot-react": "^2.1",
         "reactivex/rxphp": "^2.0",
