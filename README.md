@@ -51,7 +51,7 @@ $client->setLogger($logger);
 // Seventh create the Phergie bot
 $bot = new Bot();
 
-// Eigth create the Pergie connection
+// Eighth create the Pergie connection
 $connection = new Connection([
     // Your connection config here
 ]);
