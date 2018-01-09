@@ -35,8 +35,12 @@ $plugin = new PhergiePSR3Plugin('#logs-channel');
  */
  
 // Fourth add handlers
+/**
+ * Add any other handlers here, before the fith step, to ensure it 
+ * doesn't leak the password 
+ */
 
-// Firth wrap the logger in wyrihaximus/psr-3-keyword-filter
+// Fith wrap the logger in wyrihaximus/psr-3-keyword-filter
 $logger = new MessageKeywordFilterLogger(['PASS', 'PRIVMSG'], $logger);
 
 // Sixth create the Phergie Client
